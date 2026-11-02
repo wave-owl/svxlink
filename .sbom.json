@@ -1,0 +1,413 @@
+{
+  "gitlinks": {},
+  "vendored": [],
+  "models": [],
+  "external_libraries": [
+    {
+      "name": "Conditional source requirements declared by src/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/async/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/async/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/async/audio/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/async/audio/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/async/core/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/async/core/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/async/cpp/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/async/cpp/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/async/demo/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/async/demo/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/async/qt/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/async/qt/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/avr/siglev/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/avr/siglev/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/doc/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/doc/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/doc/man/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/doc/man/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/doc/qteluserdocs/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/doc/qteluserdocs/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/echolib/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/echolib/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/include/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/include/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/locationinfo/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/locationinfo/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/misc/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/misc/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/pyproject.toml",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/pyproject.toml"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/qtel/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/qtel/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/qtel/qtel.pro",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/qtel/qtel.pro"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/qtel/translations/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/qtel/translations/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/svxlink/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/svxlink/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/svxlink/contrib/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/svxlink/contrib/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/svxlink/contrib/module_remote_relay/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/svxlink/contrib/module_remote_relay/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/svxlink/contrib/module_site_status/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/svxlink/contrib/module_site_status/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/svxlink/contrib/module_tclsstv/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/svxlink/contrib/module_tclsstv/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/svxlink/contrib/module_txfan/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/svxlink/contrib/module_txfan/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/svxlink/contrib/svxserver/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/svxlink/contrib/svxserver/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/svxlink/contrib/svxserver/systemd/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/svxlink/contrib/svxserver/systemd/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/svxlink/devcal/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/svxlink/devcal/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/svxlink/digital/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/svxlink/digital/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/svxlink/modules/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/svxlink/modules/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/svxlink/modules/dtmf_repeater/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/svxlink/modules/dtmf_repeater/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/svxlink/modules/echolink/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/svxlink/modules/echolink/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/svxlink/modules/frn/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/svxlink/modules/frn/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/svxlink/modules/help/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/svxlink/modules/help/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/svxlink/modules/metarinfo/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/svxlink/modules/metarinfo/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/svxlink/modules/parrot/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/svxlink/modules/parrot/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/svxlink/modules/propagation_monitor/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/svxlink/modules/propagation_monitor/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/svxlink/modules/selcallenc/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/svxlink/modules/selcallenc/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/svxlink/modules/tcl/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/svxlink/modules/tcl/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/svxlink/modules/tcl_voice_mail/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/svxlink/modules/tcl_voice_mail/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/svxlink/modules/template/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/svxlink/modules/template/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/svxlink/modules/trx/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/svxlink/modules/trx/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/svxlink/reflector/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/svxlink/reflector/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/svxlink/remotetrx/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/svxlink/remotetrx/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/svxlink/scripts/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/svxlink/scripts/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/svxlink/siglevdetcal/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/svxlink/siglevdetcal/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/svxlink/svxlink/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/svxlink/svxlink/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/svxlink/svxlink/contrib/AnnounceLogic/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/svxlink/svxlink/contrib/AnnounceLogic/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/svxlink/svxlink/contrib/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/svxlink/svxlink/contrib/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/svxlink/svxlink/contrib/SipLogic/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/svxlink/svxlink/contrib/SipLogic/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/svxlink/systemd/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/svxlink/systemd/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/svxlink/trx/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/svxlink/trx/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "sigc++",
+      "version": "unresolved; conditional source declaration",
+      "evidence": [
+        "src/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "GSM",
+      "version": "unresolved; conditional source declaration",
+      "evidence": [
+        "src/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "ALSA",
+      "version": "unresolved; conditional source declaration",
+      "evidence": [
+        "src/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "OpenSSL",
+      "version": "unresolved; conditional source declaration",
+      "evidence": [
+        "src/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Threads",
+      "version": "unresolved; conditional source declaration",
+      "evidence": [
+        "src/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Speex/Opus/OGG/LADSPA optional; further CMake feature dependencies",
+      "version": "unresolved; conditional source declaration",
+      "evidence": [
+        "src/CMakeLists.txt"
+      ]
+    }
+  ]
+}

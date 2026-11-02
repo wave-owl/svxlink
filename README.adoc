@@ -53,3 +53,9 @@ These are some of the resources connected to SvxLink:
   SvxLink Server from here
 * {gh_main}[GitHub Main Page] -- The project site on GitHub
 * {gi_svxlink}[Groups.io SvxLink] -- Communicate with other SvxLink users
+
+== Source SBOM
+
+See link:SBOM.md[repository source SBOM report]. Release reports are generated automatically.
+
+The link:SBOM-POLICY.md[source SBOM policy] describes automatic release artifacts.

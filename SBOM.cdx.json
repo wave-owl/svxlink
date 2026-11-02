@@ -1,0 +1,4305 @@
+{
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "bom-ref": "5e19ea2e1f9dfee4",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "35fed3c36c1e8213655767119d5d1932268b4782"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d25b5bb77ccab135c6c6fc0f5beb3f19758239ef31047bf0b5bed9fab8f8ff5e"
+        }
+      ],
+      "name": "tracked-source/.github/workflows/codeql-analysis.yml",
+      "type": "file"
+    },
+    {
+      "bom-ref": "cmake:00d29b77ec9c609e05a8678cbbbb56a39356bd8ec94ba94b207d6a6c91450075",
+      "name": "Popt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/svxlink/remotetrx/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Popt REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:024d32ab458699a10c1f1cad4be6043f1e8511544032f273daef13b4aa9cbcf9",
+      "name": "PkgConfig",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/cmake/Modules/FindSIGC2.cmake"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "PkgConfig"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:0843617f35a9b8828451bbf565846beec9005c9f0564cba60b0bd65e705e6691",
+      "name": "GSM",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/svxlink/modules/echolink/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "GSM REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:0e31d49b7409a38a30d20d0701ede67b9024588da56fb111e13f54c6a650b51f",
+      "name": "PkgConfig",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/cmake/Modules/FindRtlSdr.cmake"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "PkgConfig"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:14adfcb5cf7c8bda0ca63febc1838cccf4359b125a2f2bb740a1a8a637f149ef",
+      "name": "PkgConfig",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/cmake/Modules/FindOGG.cmake"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "PkgConfig"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:1b3f3a955b7ce1740e2df83609541cf798c9326c737804f58324bee37302e30f",
+      "name": "Qt6Network",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/qtel/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Qt6Network REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:1dfeb1984170ad1e3a7ebc68a8a66860fd9935774a3911ab970544a7cb3aca90",
+      "name": "Qt5Core",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/async/qt/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Qt5Core QUIET"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:23e69e6d2d39f325603f0bbfa30101d9cef7c0b02b8875f84347b2908c568a2e",
+      "name": "SIGC",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "SIGC REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:24ba971f0cf58871c3b390425b1f2ecc95d53ab72ac8f84ee6d5d23b2950429c",
+      "name": "Speex",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/async/audio/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Speex"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:27aa1153300909a77850bb6b5f3365481f2ae989c3ce021ac3b95cf635a5e93c",
+      "name": "Qt6Gui",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/async/demo/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Qt6Gui REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:2ba858242b55119b4fc5bda0a8d709d33193a2e3547286f9ce2aa9adbd00118f",
+      "name": "Qt6Core",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/async/demo/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Qt6Core QUIET"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:2ee4747b4df54517c980e74aaeab5fedb79577da3cc88054118906eeba90ad28",
+      "name": "GSM",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/qtel/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "GSM REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:2ef968ba733daa5a5f0b8ec84265b370b5cf0566cf9663b9e2fce1d167f0b3b8",
+      "name": "GSM",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/svxlink/modules/frn/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "GSM REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:2f787ace5fcaa530403226dbdf541827003e2b17ee7356e54c8cd1213a75c4e6",
+      "name": "Qt5Gui",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/async/demo/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Qt5Gui REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:3250742680f089a99cd2375beb666eb007893dbf08febd11a3de05b786e46837",
+      "name": "ALSA",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/async/audio/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "ALSA REQUIRED QUIET"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:33e15b88883bffcc9f63855f543daebcc87cfeaec88bb3a1be49a216de259966",
+      "name": "Qt6LinguistTools",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/qtel/translations/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Qt6LinguistTools REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:34f3b142130bf292aea7c5b12d1e801a1ba2301674a433bbe160867c422fcad2",
+      "name": "GCrypt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/svxlink/remotetrx/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "GCrypt REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:3705045745f172ba78394e6ea1dde128abdc2de3ad9c628d6c901caf1c700225",
+      "name": "Qt5Core",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/qtel/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Qt5Core QUIET"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:3781c88f614b8825f6cdaedb27d7f1ff2595c4513c1db1334caa7eac2b5748af",
+      "name": "Popt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/svxlink/devcal/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Popt REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:38642a2addacff05a02157cbccd561276a7cd59aae37905548df16fae07b0c5e",
+      "name": "Qt5Network",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/async/qt/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Qt5Network REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:3874bd518a8fa550042f6a856aa4e0f842eda422fcef1b2e04128e61e2bb30a0",
+      "name": "Qt6Gui",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/qtel/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Qt6Gui REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:3fd1710330fae3cbf3125fba4a5b7c35ce1df4be22605f997e8ad88a7757f0ad",
+      "name": "GCrypt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/svxlink/contrib/svxserver/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "GCrypt REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:437e75eca02cef969654067ea3cfc51e68864d00bec0857f3a53dff4ae173da6",
+      "name": "GSM",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/echolib/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "GSM REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:441776d1fd588d6d5dd9f6702d53419c5ae216c33b8841263ba1f255c2e9a28e",
+      "name": "TCL",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/svxlink/svxlink/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "TCL QUIET"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:44acbc3b36a7fa65243448f44fd742f82877b97f23ba40eef2d9c8261450afd3",
+      "name": "PkgConfig",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/cmake/Modules/LibFindMacros.cmake"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "PkgConfig"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:452630de117d457448633cfe072cc03a720e4ac5b63c4c366502ce00062e1210",
+      "name": "Qt4",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/async/demo/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Qt4 4.2 REQUIRED QtCore QtGui QtNetwork"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:487109ea65ba35a6a63097863a58afe75ad12a211ca0a0c8dbdc8312810608c5",
+      "name": "Speex",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/echolib/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Speex QUIET"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:4bd2aa1875e47af134b822900ab73d28a1a4f30a8448c3ee9d1067ed9e2a5416",
+      "name": "Doxygen",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/doc/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Doxygen"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:4c6addbbd2bf1e68d370456a1d47ec441a8ebfc8a0754edaf32adf58ea8832ec",
+      "name": "Qt6Widgets",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/async/demo/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Qt6Widgets REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:516e5ee9ea449056bbbbaec9edd32599ec5ef962f20ef9b6aaad28b4011fa463",
+      "name": "Qt5Gui",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/qtel/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Qt5Gui REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:53ba237bf3d851399f3754b3e34271ab64faf0372ac6445daf59613be65725c9",
+      "name": "GSM",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/async/audio/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "GSM REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:542663340e3481b7f286bb4ec88e926004d4f61529622a7bad999e0890cab542",
+      "name": "Threads",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/async/cpp/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Threads"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:59fe1764e7a57e3ac5e0002799f8041ae2333db85df23e58933fff4f30d8b136",
+      "name": "Qt6Widgets",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/qtel/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Qt6Widgets REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:5d945bd3920967fab5eeaa2330cff3851e4dae99c7d2e84b357985057e5e695e",
+      "name": "Qt5Widgets",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/async/qt/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Qt5Widgets REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:5dc92dca811ce3bbdc086ec1f68872682d8ab8bcf1ef799385864e93bd51d238",
+      "name": "Threads",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/async/core/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Threads"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:65aeed454b7cc7932092bd50dece2a4f9e1f952478d3e0cca0ff91c55201c003",
+      "name": "Qt6Network",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/async/demo/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Qt6Network REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:687cd0fe0895e1f1a948bbe6a483c90ddd9eb2d67d4e5096829fb7b28ff96e58",
+      "name": "PkgConfig",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/cmake/Modules/FindSIGC.cmake"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "PkgConfig"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:727c3e8cbb3dc5ce895dc55110273a9b695c32acc0db0557d66cb8499b4419f2",
+      "name": "PkgConfig",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/cmake/Modules/FindSpeex.cmake"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "PkgConfig"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:74b42c629e17d4bd33904a85b93148851fb0850480e80e3353a13819771832c4",
+      "name": "GPIOD",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/svxlink/trx/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "GPIOD"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:7924454dacf2a3da9a3168926dd7f882569f4444893f508e07ed95fc7ad8c0e3",
+      "name": "RtlSdr",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/svxlink/trx/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "RtlSdr"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:7bb8b7cc6d5723255f44f92e8c0c9c0f8a90fa5159675546f535a356b801358d",
+      "name": "PkgConfig",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/cmake/Modules/FindOpus.cmake"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "PkgConfig"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:7bdd5be786de083bb281234a768b71654cba527cb2b2dbe816a33ce0d95e4077",
+      "name": "DL",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/svxlink/svxlink/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "DL REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:7f1d4558babe43cf100fb087d565fa0ea4b6e3839b45473c9d46f770987cc004",
+      "name": "Qt5Core",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/async/demo/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Qt5Core QUIET"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:83174e7bc83a5e45268877c4750bb7a6c9de802b9d62ed54305dede2e7c4673f",
+      "name": "Qt5Gui",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/async/qt/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Qt5Gui REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:856d6346ae2b8c45616b5f3d5ebeebd80ca551e89805f70b40f1ba93581526e7",
+      "name": "Qt5Widgets",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/qtel/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Qt5Widgets REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:8b3138ca7cc337c6f93cb6596a298e538e72a9547db2e95ebb2e3ad72dcccdca",
+      "name": "DL",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/async/core/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "DL REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:8fe589b1ff62300e0d1498e900e7ea88bdcccc03bcc8043532b524f694d8ecd4",
+      "name": "GSM",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/svxlink/svxlink/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "GSM REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:9750658c5bfddc23fa0a0c45c035704ab607d63ea4c2f10c87e13d792fadba76",
+      "name": "Qt5LinguistTools",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/qtel/translations/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Qt5LinguistTools REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:9c7b38b2841067bd0385e957ad0a2b5ecbf6d1938cfc54df308264a591d03f2b",
+      "name": "GCrypt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/svxlink/siglevdetcal/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "GCrypt REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:9cf213008d38b93799f619f20fb3bfe1cb2e760abce794f1704401b6de0b3f87",
+      "name": "Qt6Core",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/async/qt/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Qt6Core QUIET"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:a4d327c86640364c802d94247baad9e1c99165b10c258e9fc07e9dcc85fafeee",
+      "name": "LADSPA",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "LADSPA"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:a6276bd0f359e53c1079db4d80062239cb54c95a8c78931ff202ba962596f202",
+      "name": "${LIBFIND_PACKAGE_ARGS}",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/cmake/Modules/LibFindMacros.cmake"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "${LIBFIND_PACKAGE_ARGS}"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:aba47cf15d2ee5583fcd2d6aade7233b8942c725a9ab51309c59d14ddf93849a",
+      "name": "Opus",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/async/audio/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Opus"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:bc43e8918971c3b8b160d8462f20a71cc9653031aee1d039d38b3470bd4e63c1",
+      "name": "CURL",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/svxlink/svxlink/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "FIND_PACKAGE"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "CURL"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:bca071b52049687285d020aaba5caeb56ad7ebcd088b2d0bf1a8ecc55a0857c5",
+      "name": "Qt6Core5Compat",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/qtel/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Qt6Core5Compat REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:be062d24d05573a95b6b18450494f7c04ed619c62ed79b838c6711884e2c3e34",
+      "name": "TCL",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/svxlink/modules/echolink/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "TCL QUIET"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:c0617c0bbd65224e7b70f822976a9dc7be7830afb8cd9197968f7822d4e767e2",
+      "name": "Popt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/svxlink/contrib/svxserver/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Popt REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:c3dbfe8bcf4068c1020e6acccadb9a883e9047f95f87cdf64986ad157651daae",
+      "name": "Popt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/echolib/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Popt REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:c4afb771893d20dccb5d75325834963c28910b7ae7cac1440b65a017554bf767",
+      "name": "Qt5Widgets",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/async/demo/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Qt5Widgets REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:c57eb496e494d7ec22f45cbbecbc566d4d6b4337e34fdd71fdfe4374d478ece2",
+      "name": "Qt6Core",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/qtel/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Qt6Core QUIET"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:c6d0248848ee9e96cb9199ae54a2f05d583501ffd78414ccbc1f61a1bbe0413e",
+      "name": "RT",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/async/cpp/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "RT REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:c776b9b4d67a5947726c2fa59845ac93ee205d9a5b5ff823087860af752b7027",
+      "name": "PkgConfig",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/cmake/Modules/FindPopt.cmake"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "PkgConfig"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:cc3c8c9b99aaab613c7391ea3c21528b7504e14e73e5f1b335c42f39fb0b7d69",
+      "name": "Popt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/svxlink/svxlink/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Popt REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:d2f51e137220a458e2dd9b5a09457b9024dfc2b8f934bd50d35ca5b0d44cfa49",
+      "name": "Qt5Network",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/async/demo/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Qt5Network REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:d60709d8303d86ebb1b8c9437d3008d78dd9ecdb68643cb1dc68a6169a635ef2",
+      "name": "Qt6Network",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/async/qt/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Qt6Network REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:d70bd09fd1e529e35921707469b7bd2d6f9f01c1bf9833b6080c1ebbc1077d6b",
+      "name": "Qt6Widgets",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/async/qt/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Qt6Widgets REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:d730d8a7cd5154e47492aab167482e30bce24436b41b9dcc5ed14cd9ba7c76a0",
+      "name": "Qt6Gui",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/async/qt/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Qt6Gui REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:d75ef91bc263d29b22fb1082174c27523830e06b57a71a135ac2c08a17883e9e",
+      "name": "Qt5Network",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/qtel/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Qt5Network REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:d82f05498cce2b4b0ade62868853b68007c9310a19a3afe22a14062a8ee43a9c",
+      "name": "Popt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/svxlink/reflector/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Popt REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:de268e1329e7540a594c20e6f955a0a46a923ff13e64ab8c25d93743e9532018",
+      "name": "GCrypt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/svxlink/trx/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "GCrypt REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:ec29545800e1a8a21a7849082442b1b8005d805d4b4be25d8b1a5c2867201d88",
+      "name": "OpenSSL",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/async/core/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "OpenSSL REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:ed913b37b325bcc7024e0af058669e2771de5d16de71193c8cfa8eb5c1595038",
+      "name": "Qt4",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/qtel/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Qt4 4.2 REQUIRED QtCore QtGui QtNetwork"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:f1994304cadfe4cb0d4b4655178b00cfd60f6fba0971fc2208bdc270ee0034c9",
+      "name": "PkgConfig",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/cmake/Modules/FindGPIOD.cmake"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "PkgConfig"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:f9ad49392e02e42d391571ffc5ed97b013a96630223ac587bd9e8e9b6e6a06db",
+      "name": "Threads",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/svxlink/trx/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Threads REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:fb453bee685616e998e75ea6b56e593f7c12df4a8908e2266dae3503ab7215ac",
+      "name": "OGG",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/async/audio/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "OGG"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:fed61376c3e66dfff7d0483740c3b91db9165ab7403ea5e064517f480e982a88",
+      "name": "Qt4",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "src/async/qt/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Qt4 4.2 REQUIRED QtCore QtGui QtNetwork"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:0",
+      "name": "Conditional source requirements declared by src/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/CMakeLists.txt\", \"sha256\": \"928a86c4b350d1eace68f5bf4a5f9b4f6cab2fe219dc22f1c51574cc92b41b97\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:1",
+      "name": "Conditional source requirements declared by src/async/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/async/CMakeLists.txt\", \"sha256\": \"49f90756a02308aeea341e8a00f5de8fe93dae3cc369aafff114a2d22e812730\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:10",
+      "name": "Conditional source requirements declared by src/doc/qteluserdocs/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/doc/qteluserdocs/Makefile\", \"sha256\": \"83454ba0bcbb36ddf941b43eb09f9d5b73a03c5aa3989a1764dabad185709327\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:11",
+      "name": "Conditional source requirements declared by src/echolib/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/echolib/CMakeLists.txt\", \"sha256\": \"4518f4cde8d9e2b04c27ca595ba3efa52907a7c80fd367de8bd62835bacfee7c\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:12",
+      "name": "Conditional source requirements declared by src/include/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/include/CMakeLists.txt\", \"sha256\": \"c10771895f56a03751a4d565ecc3c29c163c1777a5d15e96a1f8544807cee289\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:13",
+      "name": "Conditional source requirements declared by src/locationinfo/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/locationinfo/CMakeLists.txt\", \"sha256\": \"159588f500df602e0064ba3cd59c49511ee35c222ceabf700b39471a36e9f4ef\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:14",
+      "name": "Conditional source requirements declared by src/misc/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/misc/CMakeLists.txt\", \"sha256\": \"abf7b1b4d3060afdc92021fefbdb31220b4561e8189af616c9618ae7866c2635\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:15",
+      "name": "Conditional source requirements declared by src/pyproject.toml",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/pyproject.toml\", \"sha256\": \"203686876adff9826775a99d62fc344af1679dac98b347765e0e2074a93adc43\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:16",
+      "name": "Conditional source requirements declared by src/qtel/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/qtel/CMakeLists.txt\", \"sha256\": \"5f7bbcb4a158fb8770128c8b14480810ad22ab79847fb29528e3a44c24768c03\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:17",
+      "name": "Conditional source requirements declared by src/qtel/qtel.pro",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/qtel/qtel.pro\", \"sha256\": \"baddc7adb5ebcbbd8440c532b89b26a0376485caa34762e60aa6c604e5ab7187\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:18",
+      "name": "Conditional source requirements declared by src/qtel/translations/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/qtel/translations/CMakeLists.txt\", \"sha256\": \"70014af80f83932e315efe8eb82688391ca5377cf960412aa48cb6b7e4f174d8\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:19",
+      "name": "Conditional source requirements declared by src/svxlink/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/svxlink/CMakeLists.txt\", \"sha256\": \"de5db69106df0fecd6a4ca61e530030e2e2974c419f539fdb734b18503c9043e\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:2",
+      "name": "Conditional source requirements declared by src/async/audio/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/async/audio/CMakeLists.txt\", \"sha256\": \"8fc9cb63e2a32a9180a1caf0b4e6487bf5186099c5f7954fd6a7bc5a6e38d0bf\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:20",
+      "name": "Conditional source requirements declared by src/svxlink/contrib/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/svxlink/contrib/CMakeLists.txt\", \"sha256\": \"f6b9bfa1b6ca4caf5aaa28e610f9e5a97b4aba46033b5bdab7256032fa5ae0d6\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:21",
+      "name": "Conditional source requirements declared by src/svxlink/contrib/module_remote_relay/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/svxlink/contrib/module_remote_relay/CMakeLists.txt\", \"sha256\": \"d6c11bb787879c79d1b5d75e34a3a311acb834bb8d48dec1e206a87b14264419\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:22",
+      "name": "Conditional source requirements declared by src/svxlink/contrib/module_site_status/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/svxlink/contrib/module_site_status/CMakeLists.txt\", \"sha256\": \"8689ba1cfadc662efa7807faee7d9f99e91b176f895f473ccba735abdee61329\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:23",
+      "name": "Conditional source requirements declared by src/svxlink/contrib/module_tclsstv/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/svxlink/contrib/module_tclsstv/CMakeLists.txt\", \"sha256\": \"426c17e273114c0b2c08736e40aa892adb575895e0c4b34ff382e40a4f6076f3\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:24",
+      "name": "Conditional source requirements declared by src/svxlink/contrib/module_txfan/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/svxlink/contrib/module_txfan/CMakeLists.txt\", \"sha256\": \"b749cac80ed05f0309efed84ce09af07aedb490bdaa278c42f8e79ca023d8478\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:25",
+      "name": "Conditional source requirements declared by src/svxlink/contrib/svxserver/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/svxlink/contrib/svxserver/CMakeLists.txt\", \"sha256\": \"44b5ed207cf5773a51e1518f34064c09e7ae5ea609155d8651e1a8fda3f43ba0\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:26",
+      "name": "Conditional source requirements declared by src/svxlink/contrib/svxserver/systemd/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/svxlink/contrib/svxserver/systemd/CMakeLists.txt\", \"sha256\": \"7e59238102c39876bb8118197225dd2286b985945bb6599babba482795b96607\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:27",
+      "name": "Conditional source requirements declared by src/svxlink/devcal/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/svxlink/devcal/CMakeLists.txt\", \"sha256\": \"30fa562eb5620113d62cd73096576e295fd6df005fe8a2a2661ba621036c34c9\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:28",
+      "name": "Conditional source requirements declared by src/svxlink/digital/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/svxlink/digital/CMakeLists.txt\", \"sha256\": \"7932237fa31d52f860d0c06c77f9c218774466b5cd0349cb1a8915dca0fd1fcb\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:29",
+      "name": "Conditional source requirements declared by src/svxlink/modules/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/svxlink/modules/CMakeLists.txt\", \"sha256\": \"b207c267d07ed5df16765a028deb8989a87244d1539ee47e55683c50aca2b7e0\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:3",
+      "name": "Conditional source requirements declared by src/async/core/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/async/core/CMakeLists.txt\", \"sha256\": \"8ecf7db28a7e81e534f4813c93826c602377e499e9a3e43163c10b42b8a1f17f\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:30",
+      "name": "Conditional source requirements declared by src/svxlink/modules/dtmf_repeater/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/svxlink/modules/dtmf_repeater/CMakeLists.txt\", \"sha256\": \"42f31374973f79d4c4dd23a65e130b8e5263fb7d92730105dfaacb5fe794acb2\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:31",
+      "name": "Conditional source requirements declared by src/svxlink/modules/echolink/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/svxlink/modules/echolink/CMakeLists.txt\", \"sha256\": \"d0ceeedf79d0da2d4e098d462b43efabf470e6a93c5609111475c5d3a0f8daec\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:32",
+      "name": "Conditional source requirements declared by src/svxlink/modules/frn/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/svxlink/modules/frn/CMakeLists.txt\", \"sha256\": \"757d2be7b663a77d127806559bf91525e0afc442864dddeeca31ed92d1acbda0\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:33",
+      "name": "Conditional source requirements declared by src/svxlink/modules/help/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/svxlink/modules/help/CMakeLists.txt\", \"sha256\": \"d7168a53155a0dbbfc636cd107555d1437f29ac03d9d9a34032ac763fcc9000d\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:34",
+      "name": "Conditional source requirements declared by src/svxlink/modules/metarinfo/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/svxlink/modules/metarinfo/CMakeLists.txt\", \"sha256\": \"a5bcb151e38250691869f16b9c132bd0af8a23957bfa272b5450462ca9b34c37\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:35",
+      "name": "Conditional source requirements declared by src/svxlink/modules/parrot/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/svxlink/modules/parrot/CMakeLists.txt\", \"sha256\": \"a72f33f7bd5a03e9a55124c796baa86c8f29cbee00e07a64f7d6d245fc41ada5\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:36",
+      "name": "Conditional source requirements declared by src/svxlink/modules/propagation_monitor/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/svxlink/modules/propagation_monitor/CMakeLists.txt\", \"sha256\": \"d5a414cb4260716dcc220c640f27bd8e65a2907326fdd72dd6b1d92a1faf6ddb\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:37",
+      "name": "Conditional source requirements declared by src/svxlink/modules/selcallenc/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/svxlink/modules/selcallenc/CMakeLists.txt\", \"sha256\": \"bc0df9b142039b256c7373dfa9617db01c6c73cdc5387f1e7cb79b9655d1edfa\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:38",
+      "name": "Conditional source requirements declared by src/svxlink/modules/tcl/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/svxlink/modules/tcl/CMakeLists.txt\", \"sha256\": \"50d87331b66a5ffba24cf3ff33d8c4e5d01107ba92b598a19dd2e5a2347ce466\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:39",
+      "name": "Conditional source requirements declared by src/svxlink/modules/tcl_voice_mail/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/svxlink/modules/tcl_voice_mail/CMakeLists.txt\", \"sha256\": \"0a8cc40891848419a3040f97a5e7a787ebb42d291b483a470863b7d14b31c4a5\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:4",
+      "name": "Conditional source requirements declared by src/async/cpp/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/async/cpp/CMakeLists.txt\", \"sha256\": \"513f35e4ec77f616a151d5c9bc64b4a0d9c01c7c74417051e8cf274e0a9be916\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:40",
+      "name": "Conditional source requirements declared by src/svxlink/modules/template/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/svxlink/modules/template/CMakeLists.txt\", \"sha256\": \"5e07c193446c99f42e20992e4531774f1e4fc5ecbd5c1e213cd42da1157b2a6e\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:41",
+      "name": "Conditional source requirements declared by src/svxlink/modules/trx/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/svxlink/modules/trx/CMakeLists.txt\", \"sha256\": \"3a8c110ad3ec038b4e36662741201edfc5d26499f4a077381c679e2e52045b7c\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:42",
+      "name": "Conditional source requirements declared by src/svxlink/reflector/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/svxlink/reflector/CMakeLists.txt\", \"sha256\": \"cba6c799f19d94eec05c7e0c84990dcf20120a8828263388c6e75baa86d81cd2\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:43",
+      "name": "Conditional source requirements declared by src/svxlink/remotetrx/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/svxlink/remotetrx/CMakeLists.txt\", \"sha256\": \"a4165958a7f155c9a49e623a398393aa3ce5a589b722642531d1f1c0b5d4d728\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:44",
+      "name": "Conditional source requirements declared by src/svxlink/scripts/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/svxlink/scripts/CMakeLists.txt\", \"sha256\": \"b2bcb63bf1a36b572c3f8abbeaa47f5713e091f9fde2e3ae32f84ac09e817c8d\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:45",
+      "name": "Conditional source requirements declared by src/svxlink/siglevdetcal/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/svxlink/siglevdetcal/CMakeLists.txt\", \"sha256\": \"b332b8e544eadccc1501bf42f2bbc8866c569e54269c83770c8a4e0cb8f8e4ee\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:46",
+      "name": "Conditional source requirements declared by src/svxlink/svxlink/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/svxlink/svxlink/CMakeLists.txt\", \"sha256\": \"9f38336225d26c8e38d186d68a541d9730e384b17ece43bc2b3385700cb22034\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:47",
+      "name": "Conditional source requirements declared by src/svxlink/svxlink/contrib/AnnounceLogic/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/svxlink/svxlink/contrib/AnnounceLogic/CMakeLists.txt\", \"sha256\": \"235bb298b7b0ea78e10a263429eb7c831a3cbcc29410aaad3a6658d357a54204\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:48",
+      "name": "Conditional source requirements declared by src/svxlink/svxlink/contrib/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/svxlink/svxlink/contrib/CMakeLists.txt\", \"sha256\": \"f513ee535a5a2c52abc54e06c2d4acfe411b98127d914f531298d2119264bc65\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:49",
+      "name": "Conditional source requirements declared by src/svxlink/svxlink/contrib/SipLogic/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/svxlink/svxlink/contrib/SipLogic/CMakeLists.txt\", \"sha256\": \"526b89005d405aee47431f3ba84f78681e21d012301c3cf817b75d74e808a379\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:5",
+      "name": "Conditional source requirements declared by src/async/demo/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/async/demo/CMakeLists.txt\", \"sha256\": \"e21330e2d24117f832abf721179a66bd3e216f39314522aa1ac0adb14108602d\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:50",
+      "name": "Conditional source requirements declared by src/svxlink/systemd/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/svxlink/systemd/CMakeLists.txt\", \"sha256\": \"0239824f92778308fb680d246f5f1a0bae0b4c0f09abb2ad20beb552f787382d\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:51",
+      "name": "Conditional source requirements declared by src/svxlink/trx/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/svxlink/trx/CMakeLists.txt\", \"sha256\": \"bd569f21e361fd38e61f0e4a0372bed5379622177a4804981c49982a9b5188b5\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:52",
+      "name": "sigc++",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; conditional source declaration"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/CMakeLists.txt\", \"sha256\": \"928a86c4b350d1eace68f5bf4a5f9b4f6cab2fe219dc22f1c51574cc92b41b97\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:53",
+      "name": "GSM",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; conditional source declaration"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/CMakeLists.txt\", \"sha256\": \"928a86c4b350d1eace68f5bf4a5f9b4f6cab2fe219dc22f1c51574cc92b41b97\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:54",
+      "name": "ALSA",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; conditional source declaration"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/CMakeLists.txt\", \"sha256\": \"928a86c4b350d1eace68f5bf4a5f9b4f6cab2fe219dc22f1c51574cc92b41b97\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:55",
+      "name": "OpenSSL",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; conditional source declaration"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/CMakeLists.txt\", \"sha256\": \"928a86c4b350d1eace68f5bf4a5f9b4f6cab2fe219dc22f1c51574cc92b41b97\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:56",
+      "name": "Threads",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; conditional source declaration"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/CMakeLists.txt\", \"sha256\": \"928a86c4b350d1eace68f5bf4a5f9b4f6cab2fe219dc22f1c51574cc92b41b97\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:57",
+      "name": "Speex/Opus/OGG/LADSPA optional; further CMake feature dependencies",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; conditional source declaration"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/CMakeLists.txt\", \"sha256\": \"928a86c4b350d1eace68f5bf4a5f9b4f6cab2fe219dc22f1c51574cc92b41b97\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:6",
+      "name": "Conditional source requirements declared by src/async/qt/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/async/qt/CMakeLists.txt\", \"sha256\": \"2e2e291787e3a21b94e3ee55fad21fd7e0826a696440d049d069e3d6e1cf3b0d\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:7",
+      "name": "Conditional source requirements declared by src/avr/siglev/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/avr/siglev/Makefile\", \"sha256\": \"509e7f455357ecad50114ad34774b141cd4615df6bbcb4bb8ec58cd12a079744\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:8",
+      "name": "Conditional source requirements declared by src/doc/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/doc/CMakeLists.txt\", \"sha256\": \"00773be754b204c76f3f091ff41c30f7da6457b4f9d063c3b0210f26b741dc4b\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:9",
+      "name": "Conditional source requirements declared by src/doc/man/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/doc/man/CMakeLists.txt\", \"sha256\": \"2e9e7ed69960399b844d2c236a6783f305cd04ad93e43366ae4d438bfd8b7b64\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v4?package-id=9235b9374321d01c",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4:*:*:*:*:*:*:*",
+      "name": "actions/checkout",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/codeql-analysis.yml"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v4",
+      "type": "library",
+      "version": "v4"
+    },
+    {
+      "bom-ref": "pkg:github/github/codeql-action@v3?package-id=6e46bc88f6d5e449#analyze",
+      "cpe": "cpe:2.3:a:github\\/codeql-action\\/analyze:github\\/codeql-action\\/analyze:v3:*:*:*:*:*:*:*",
+      "name": "github/codeql-action/analyze",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql-action\\/analyze:github\\/codeql_action\\/analyze:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql_action\\/analyze:github\\/codeql-action\\/analyze:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql_action\\/analyze:github\\/codeql_action\\/analyze:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql:github\\/codeql-action\\/analyze:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql:github\\/codeql_action\\/analyze:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/codeql-analysis.yml"
+        }
+      ],
+      "purl": "pkg:github/github/codeql-action@v3#analyze",
+      "type": "library",
+      "version": "v3"
+    },
+    {
+      "bom-ref": "pkg:github/github/codeql-action@v3?package-id=e44f6bc7aabf3d57#init",
+      "cpe": "cpe:2.3:a:github\\/codeql-action\\/init:github\\/codeql-action\\/init:v3:*:*:*:*:*:*:*",
+      "name": "github/codeql-action/init",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql-action\\/init:github\\/codeql_action\\/init:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql_action\\/init:github\\/codeql-action\\/init:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql_action\\/init:github\\/codeql_action\\/init:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql:github\\/codeql-action\\/init:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql:github\\/codeql_action\\/init:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/codeql-analysis.yml"
+        }
+      ],
+      "purl": "pkg:github/github/codeql-action@v3#init",
+      "type": "library",
+      "version": "v3"
+    }
+  ],
+  "compositions": [
+    {
+      "aggregate": "unknown",
+      "assemblies": [
+        "git:https://github.com/wave-owl/svxlink@cba03b33a0b1e83c124da3ab30cff39c7d430ffa"
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "dependsOn": [],
+      "ref": "5e19ea2e1f9dfee4"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:00d29b77ec9c609e05a8678cbbbb56a39356bd8ec94ba94b207d6a6c91450075"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:024d32ab458699a10c1f1cad4be6043f1e8511544032f273daef13b4aa9cbcf9"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:0843617f35a9b8828451bbf565846beec9005c9f0564cba60b0bd65e705e6691"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:0e31d49b7409a38a30d20d0701ede67b9024588da56fb111e13f54c6a650b51f"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:14adfcb5cf7c8bda0ca63febc1838cccf4359b125a2f2bb740a1a8a637f149ef"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:1b3f3a955b7ce1740e2df83609541cf798c9326c737804f58324bee37302e30f"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:1dfeb1984170ad1e3a7ebc68a8a66860fd9935774a3911ab970544a7cb3aca90"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:23e69e6d2d39f325603f0bbfa30101d9cef7c0b02b8875f84347b2908c568a2e"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:24ba971f0cf58871c3b390425b1f2ecc95d53ab72ac8f84ee6d5d23b2950429c"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:27aa1153300909a77850bb6b5f3365481f2ae989c3ce021ac3b95cf635a5e93c"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:2ba858242b55119b4fc5bda0a8d709d33193a2e3547286f9ce2aa9adbd00118f"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:2ee4747b4df54517c980e74aaeab5fedb79577da3cc88054118906eeba90ad28"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:2ef968ba733daa5a5f0b8ec84265b370b5cf0566cf9663b9e2fce1d167f0b3b8"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:2f787ace5fcaa530403226dbdf541827003e2b17ee7356e54c8cd1213a75c4e6"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:3250742680f089a99cd2375beb666eb007893dbf08febd11a3de05b786e46837"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:33e15b88883bffcc9f63855f543daebcc87cfeaec88bb3a1be49a216de259966"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:34f3b142130bf292aea7c5b12d1e801a1ba2301674a433bbe160867c422fcad2"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:3705045745f172ba78394e6ea1dde128abdc2de3ad9c628d6c901caf1c700225"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:3781c88f614b8825f6cdaedb27d7f1ff2595c4513c1db1334caa7eac2b5748af"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:38642a2addacff05a02157cbccd561276a7cd59aae37905548df16fae07b0c5e"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:3874bd518a8fa550042f6a856aa4e0f842eda422fcef1b2e04128e61e2bb30a0"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:3fd1710330fae3cbf3125fba4a5b7c35ce1df4be22605f997e8ad88a7757f0ad"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:437e75eca02cef969654067ea3cfc51e68864d00bec0857f3a53dff4ae173da6"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:441776d1fd588d6d5dd9f6702d53419c5ae216c33b8841263ba1f255c2e9a28e"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:44acbc3b36a7fa65243448f44fd742f82877b97f23ba40eef2d9c8261450afd3"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:452630de117d457448633cfe072cc03a720e4ac5b63c4c366502ce00062e1210"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:487109ea65ba35a6a63097863a58afe75ad12a211ca0a0c8dbdc8312810608c5"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:4bd2aa1875e47af134b822900ab73d28a1a4f30a8448c3ee9d1067ed9e2a5416"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:4c6addbbd2bf1e68d370456a1d47ec441a8ebfc8a0754edaf32adf58ea8832ec"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:516e5ee9ea449056bbbbaec9edd32599ec5ef962f20ef9b6aaad28b4011fa463"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:53ba237bf3d851399f3754b3e34271ab64faf0372ac6445daf59613be65725c9"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:542663340e3481b7f286bb4ec88e926004d4f61529622a7bad999e0890cab542"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:59fe1764e7a57e3ac5e0002799f8041ae2333db85df23e58933fff4f30d8b136"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:5d945bd3920967fab5eeaa2330cff3851e4dae99c7d2e84b357985057e5e695e"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:5dc92dca811ce3bbdc086ec1f68872682d8ab8bcf1ef799385864e93bd51d238"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:65aeed454b7cc7932092bd50dece2a4f9e1f952478d3e0cca0ff91c55201c003"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:687cd0fe0895e1f1a948bbe6a483c90ddd9eb2d67d4e5096829fb7b28ff96e58"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:727c3e8cbb3dc5ce895dc55110273a9b695c32acc0db0557d66cb8499b4419f2"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:74b42c629e17d4bd33904a85b93148851fb0850480e80e3353a13819771832c4"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:7924454dacf2a3da9a3168926dd7f882569f4444893f508e07ed95fc7ad8c0e3"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:7bb8b7cc6d5723255f44f92e8c0c9c0f8a90fa5159675546f535a356b801358d"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:7bdd5be786de083bb281234a768b71654cba527cb2b2dbe816a33ce0d95e4077"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:7f1d4558babe43cf100fb087d565fa0ea4b6e3839b45473c9d46f770987cc004"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:83174e7bc83a5e45268877c4750bb7a6c9de802b9d62ed54305dede2e7c4673f"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:856d6346ae2b8c45616b5f3d5ebeebd80ca551e89805f70b40f1ba93581526e7"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:8b3138ca7cc337c6f93cb6596a298e538e72a9547db2e95ebb2e3ad72dcccdca"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:8fe589b1ff62300e0d1498e900e7ea88bdcccc03bcc8043532b524f694d8ecd4"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:9750658c5bfddc23fa0a0c45c035704ab607d63ea4c2f10c87e13d792fadba76"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:9c7b38b2841067bd0385e957ad0a2b5ecbf6d1938cfc54df308264a591d03f2b"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:9cf213008d38b93799f619f20fb3bfe1cb2e760abce794f1704401b6de0b3f87"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:a4d327c86640364c802d94247baad9e1c99165b10c258e9fc07e9dcc85fafeee"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:a6276bd0f359e53c1079db4d80062239cb54c95a8c78931ff202ba962596f202"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:aba47cf15d2ee5583fcd2d6aade7233b8942c725a9ab51309c59d14ddf93849a"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:bc43e8918971c3b8b160d8462f20a71cc9653031aee1d039d38b3470bd4e63c1"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:bca071b52049687285d020aaba5caeb56ad7ebcd088b2d0bf1a8ecc55a0857c5"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:be062d24d05573a95b6b18450494f7c04ed619c62ed79b838c6711884e2c3e34"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:c0617c0bbd65224e7b70f822976a9dc7be7830afb8cd9197968f7822d4e767e2"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:c3dbfe8bcf4068c1020e6acccadb9a883e9047f95f87cdf64986ad157651daae"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:c4afb771893d20dccb5d75325834963c28910b7ae7cac1440b65a017554bf767"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:c57eb496e494d7ec22f45cbbecbc566d4d6b4337e34fdd71fdfe4374d478ece2"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:c6d0248848ee9e96cb9199ae54a2f05d583501ffd78414ccbc1f61a1bbe0413e"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:c776b9b4d67a5947726c2fa59845ac93ee205d9a5b5ff823087860af752b7027"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:cc3c8c9b99aaab613c7391ea3c21528b7504e14e73e5f1b335c42f39fb0b7d69"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:d2f51e137220a458e2dd9b5a09457b9024dfc2b8f934bd50d35ca5b0d44cfa49"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:d60709d8303d86ebb1b8c9437d3008d78dd9ecdb68643cb1dc68a6169a635ef2"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:d70bd09fd1e529e35921707469b7bd2d6f9f01c1bf9833b6080c1ebbc1077d6b"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:d730d8a7cd5154e47492aab167482e30bce24436b41b9dcc5ed14cd9ba7c76a0"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:d75ef91bc263d29b22fb1082174c27523830e06b57a71a135ac2c08a17883e9e"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:d82f05498cce2b4b0ade62868853b68007c9310a19a3afe22a14062a8ee43a9c"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:de268e1329e7540a594c20e6f955a0a46a923ff13e64ab8c25d93743e9532018"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:ec29545800e1a8a21a7849082442b1b8005d805d4b4be25d8b1a5c2867201d88"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:ed913b37b325bcc7024e0af058669e2771de5d16de71193c8cfa8eb5c1595038"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:f1994304cadfe4cb0d4b4655178b00cfd60f6fba0971fc2208bdc270ee0034c9"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:f9ad49392e02e42d391571ffc5ed97b013a96630223ac587bd9e8e9b6e6a06db"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:fb453bee685616e998e75ea6b56e593f7c12df4a8908e2266dae3503ab7215ac"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:fed61376c3e66dfff7d0483740c3b91db9165ab7403ea5e064517f480e982a88"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:0"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:1"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:10"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:11"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:12"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:13"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:14"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:15"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:16"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:17"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:18"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:19"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:2"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:20"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:21"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:22"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:23"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:24"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:25"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:26"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:27"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:28"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:29"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:3"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:30"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:31"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:32"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:33"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:34"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:35"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:36"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:37"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:38"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:39"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:4"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:40"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:41"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:42"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:43"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:44"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:45"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:46"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:47"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:48"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:49"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:5"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:50"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:51"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:52"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:53"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:54"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:55"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:56"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:57"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:6"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:7"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:8"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:9"
+    },
+    {
+      "dependsOn": [
+        "5e19ea2e1f9dfee4",
+        "cmake:00d29b77ec9c609e05a8678cbbbb56a39356bd8ec94ba94b207d6a6c91450075",
+        "cmake:024d32ab458699a10c1f1cad4be6043f1e8511544032f273daef13b4aa9cbcf9",
+        "cmake:0843617f35a9b8828451bbf565846beec9005c9f0564cba60b0bd65e705e6691",
+        "cmake:0e31d49b7409a38a30d20d0701ede67b9024588da56fb111e13f54c6a650b51f",
+        "cmake:14adfcb5cf7c8bda0ca63febc1838cccf4359b125a2f2bb740a1a8a637f149ef",
+        "cmake:1b3f3a955b7ce1740e2df83609541cf798c9326c737804f58324bee37302e30f",
+        "cmake:1dfeb1984170ad1e3a7ebc68a8a66860fd9935774a3911ab970544a7cb3aca90",
+        "cmake:23e69e6d2d39f325603f0bbfa30101d9cef7c0b02b8875f84347b2908c568a2e",
+        "cmake:24ba971f0cf58871c3b390425b1f2ecc95d53ab72ac8f84ee6d5d23b2950429c",
+        "cmake:27aa1153300909a77850bb6b5f3365481f2ae989c3ce021ac3b95cf635a5e93c",
+        "cmake:2ba858242b55119b4fc5bda0a8d709d33193a2e3547286f9ce2aa9adbd00118f",
+        "cmake:2ee4747b4df54517c980e74aaeab5fedb79577da3cc88054118906eeba90ad28",
+        "cmake:2ef968ba733daa5a5f0b8ec84265b370b5cf0566cf9663b9e2fce1d167f0b3b8",
+        "cmake:2f787ace5fcaa530403226dbdf541827003e2b17ee7356e54c8cd1213a75c4e6",
+        "cmake:3250742680f089a99cd2375beb666eb007893dbf08febd11a3de05b786e46837",
+        "cmake:33e15b88883bffcc9f63855f543daebcc87cfeaec88bb3a1be49a216de259966",
+        "cmake:34f3b142130bf292aea7c5b12d1e801a1ba2301674a433bbe160867c422fcad2",
+        "cmake:3705045745f172ba78394e6ea1dde128abdc2de3ad9c628d6c901caf1c700225",
+        "cmake:3781c88f614b8825f6cdaedb27d7f1ff2595c4513c1db1334caa7eac2b5748af",
+        "cmake:38642a2addacff05a02157cbccd561276a7cd59aae37905548df16fae07b0c5e",
+        "cmake:3874bd518a8fa550042f6a856aa4e0f842eda422fcef1b2e04128e61e2bb30a0",
+        "cmake:3fd1710330fae3cbf3125fba4a5b7c35ce1df4be22605f997e8ad88a7757f0ad",
+        "cmake:437e75eca02cef969654067ea3cfc51e68864d00bec0857f3a53dff4ae173da6",
+        "cmake:441776d1fd588d6d5dd9f6702d53419c5ae216c33b8841263ba1f255c2e9a28e",
+        "cmake:44acbc3b36a7fa65243448f44fd742f82877b97f23ba40eef2d9c8261450afd3",
+        "cmake:452630de117d457448633cfe072cc03a720e4ac5b63c4c366502ce00062e1210",
+        "cmake:487109ea65ba35a6a63097863a58afe75ad12a211ca0a0c8dbdc8312810608c5",
+        "cmake:4bd2aa1875e47af134b822900ab73d28a1a4f30a8448c3ee9d1067ed9e2a5416",
+        "cmake:4c6addbbd2bf1e68d370456a1d47ec441a8ebfc8a0754edaf32adf58ea8832ec",
+        "cmake:516e5ee9ea449056bbbbaec9edd32599ec5ef962f20ef9b6aaad28b4011fa463",
+        "cmake:53ba237bf3d851399f3754b3e34271ab64faf0372ac6445daf59613be65725c9",
+        "cmake:542663340e3481b7f286bb4ec88e926004d4f61529622a7bad999e0890cab542",
+        "cmake:59fe1764e7a57e3ac5e0002799f8041ae2333db85df23e58933fff4f30d8b136",
+        "cmake:5d945bd3920967fab5eeaa2330cff3851e4dae99c7d2e84b357985057e5e695e",
+        "cmake:5dc92dca811ce3bbdc086ec1f68872682d8ab8bcf1ef799385864e93bd51d238",
+        "cmake:65aeed454b7cc7932092bd50dece2a4f9e1f952478d3e0cca0ff91c55201c003",
+        "cmake:687cd0fe0895e1f1a948bbe6a483c90ddd9eb2d67d4e5096829fb7b28ff96e58",
+        "cmake:727c3e8cbb3dc5ce895dc55110273a9b695c32acc0db0557d66cb8499b4419f2",
+        "cmake:74b42c629e17d4bd33904a85b93148851fb0850480e80e3353a13819771832c4",
+        "cmake:7924454dacf2a3da9a3168926dd7f882569f4444893f508e07ed95fc7ad8c0e3",
+        "cmake:7bb8b7cc6d5723255f44f92e8c0c9c0f8a90fa5159675546f535a356b801358d",
+        "cmake:7bdd5be786de083bb281234a768b71654cba527cb2b2dbe816a33ce0d95e4077",
+        "cmake:7f1d4558babe43cf100fb087d565fa0ea4b6e3839b45473c9d46f770987cc004",
+        "cmake:83174e7bc83a5e45268877c4750bb7a6c9de802b9d62ed54305dede2e7c4673f",
+        "cmake:856d6346ae2b8c45616b5f3d5ebeebd80ca551e89805f70b40f1ba93581526e7",
+        "cmake:8b3138ca7cc337c6f93cb6596a298e538e72a9547db2e95ebb2e3ad72dcccdca",
+        "cmake:8fe589b1ff62300e0d1498e900e7ea88bdcccc03bcc8043532b524f694d8ecd4",
+        "cmake:9750658c5bfddc23fa0a0c45c035704ab607d63ea4c2f10c87e13d792fadba76",
+        "cmake:9c7b38b2841067bd0385e957ad0a2b5ecbf6d1938cfc54df308264a591d03f2b",
+        "cmake:9cf213008d38b93799f619f20fb3bfe1cb2e760abce794f1704401b6de0b3f87",
+        "cmake:a4d327c86640364c802d94247baad9e1c99165b10c258e9fc07e9dcc85fafeee",
+        "cmake:a6276bd0f359e53c1079db4d80062239cb54c95a8c78931ff202ba962596f202",
+        "cmake:aba47cf15d2ee5583fcd2d6aade7233b8942c725a9ab51309c59d14ddf93849a",
+        "cmake:bc43e8918971c3b8b160d8462f20a71cc9653031aee1d039d38b3470bd4e63c1",
+        "cmake:bca071b52049687285d020aaba5caeb56ad7ebcd088b2d0bf1a8ecc55a0857c5",
+        "cmake:be062d24d05573a95b6b18450494f7c04ed619c62ed79b838c6711884e2c3e34",
+        "cmake:c0617c0bbd65224e7b70f822976a9dc7be7830afb8cd9197968f7822d4e767e2",
+        "cmake:c3dbfe8bcf4068c1020e6acccadb9a883e9047f95f87cdf64986ad157651daae",
+        "cmake:c4afb771893d20dccb5d75325834963c28910b7ae7cac1440b65a017554bf767",
+        "cmake:c57eb496e494d7ec22f45cbbecbc566d4d6b4337e34fdd71fdfe4374d478ece2",
+        "cmake:c6d0248848ee9e96cb9199ae54a2f05d583501ffd78414ccbc1f61a1bbe0413e",
+        "cmake:c776b9b4d67a5947726c2fa59845ac93ee205d9a5b5ff823087860af752b7027",
+        "cmake:cc3c8c9b99aaab613c7391ea3c21528b7504e14e73e5f1b335c42f39fb0b7d69",
+        "cmake:d2f51e137220a458e2dd9b5a09457b9024dfc2b8f934bd50d35ca5b0d44cfa49",
+        "cmake:d60709d8303d86ebb1b8c9437d3008d78dd9ecdb68643cb1dc68a6169a635ef2",
+        "cmake:d70bd09fd1e529e35921707469b7bd2d6f9f01c1bf9833b6080c1ebbc1077d6b",
+        "cmake:d730d8a7cd5154e47492aab167482e30bce24436b41b9dcc5ed14cd9ba7c76a0",
+        "cmake:d75ef91bc263d29b22fb1082174c27523830e06b57a71a135ac2c08a17883e9e",
+        "cmake:d82f05498cce2b4b0ade62868853b68007c9310a19a3afe22a14062a8ee43a9c",
+        "cmake:de268e1329e7540a594c20e6f955a0a46a923ff13e64ab8c25d93743e9532018",
+        "cmake:ec29545800e1a8a21a7849082442b1b8005d805d4b4be25d8b1a5c2867201d88",
+        "cmake:ed913b37b325bcc7024e0af058669e2771de5d16de71193c8cfa8eb5c1595038",
+        "cmake:f1994304cadfe4cb0d4b4655178b00cfd60f6fba0971fc2208bdc270ee0034c9",
+        "cmake:f9ad49392e02e42d391571ffc5ed97b013a96630223ac587bd9e8e9b6e6a06db",
+        "cmake:fb453bee685616e998e75ea6b56e593f7c12df4a8908e2266dae3503ab7215ac",
+        "cmake:fed61376c3e66dfff7d0483740c3b91db9165ab7403ea5e064517f480e982a88",
+        "external-library:0",
+        "external-library:1",
+        "external-library:10",
+        "external-library:11",
+        "external-library:12",
+        "external-library:13",
+        "external-library:14",
+        "external-library:15",
+        "external-library:16",
+        "external-library:17",
+        "external-library:18",
+        "external-library:19",
+        "external-library:2",
+        "external-library:20",
+        "external-library:21",
+        "external-library:22",
+        "external-library:23",
+        "external-library:24",
+        "external-library:25",
+        "external-library:26",
+        "external-library:27",
+        "external-library:28",
+        "external-library:29",
+        "external-library:3",
+        "external-library:30",
+        "external-library:31",
+        "external-library:32",
+        "external-library:33",
+        "external-library:34",
+        "external-library:35",
+        "external-library:36",
+        "external-library:37",
+        "external-library:38",
+        "external-library:39",
+        "external-library:4",
+        "external-library:40",
+        "external-library:41",
+        "external-library:42",
+        "external-library:43",
+        "external-library:44",
+        "external-library:45",
+        "external-library:46",
+        "external-library:47",
+        "external-library:48",
+        "external-library:49",
+        "external-library:5",
+        "external-library:50",
+        "external-library:51",
+        "external-library:52",
+        "external-library:53",
+        "external-library:54",
+        "external-library:55",
+        "external-library:56",
+        "external-library:57",
+        "external-library:6",
+        "external-library:7",
+        "external-library:8",
+        "external-library:9",
+        "pkg:github/actions/checkout@v4?package-id=9235b9374321d01c",
+        "pkg:github/github/codeql-action@v3?package-id=6e46bc88f6d5e449#analyze",
+        "pkg:github/github/codeql-action@v3?package-id=e44f6bc7aabf3d57#init"
+      ],
+      "ref": "git:https://github.com/wave-owl/svxlink@cba03b33a0b1e83c124da3ab30cff39c7d430ffa"
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:github/actions/checkout@v4?package-id=9235b9374321d01c"
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:github/github/codeql-action@v3?package-id=6e46bc88f6d5e449#analyze"
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:github/github/codeql-action@v3?package-id=e44f6bc7aabf3d57#init"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "bom-ref": "git:https://github.com/wave-owl/svxlink@cba03b33a0b1e83c124da3ab30cff39c7d430ffa",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/wave-owl/svxlink/tree/cba03b33a0b1e83c124da3ab30cff39c7d430ffa"
+        }
+      ],
+      "name": "wave-owl/svxlink",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "source-root"
+        },
+        {
+          "name": "sbom:git-commit",
+          "value": "cba03b33a0b1e83c124da3ab30cff39c7d430ffa"
+        },
+        {
+          "name": "sbom:git-tree",
+          "value": "dd8ecd16e28cdba220b7c2f961cb6ef6052755ef"
+        },
+        {
+          "name": "sbom:source-repository",
+          "value": "https://github.com/wave-owl/svxlink"
+        },
+        {
+          "name": "sbom:release-tags",
+          "value": "[]"
+        },
+        {
+          "name": "sbom:snapshot",
+          "value": "true"
+        },
+        {
+          "name": "sbom:snapshot-source-commit",
+          "value": "cba03b33a0b1e83c124da3ab30cff39c7d430ffa"
+        },
+        {
+          "name": "sbom:snapshot-scope",
+          "value": "Initial immutable source snapshot, before the tooling commit; not a release report."
+        }
+      ],
+      "type": "application",
+      "version": "cba03b33a0b1e83c124da3ab30cff39c7d430ffa"
+    },
+    "properties": [
+      {
+        "name": "sbom:scope",
+        "value": "Source repository inventory only; completeness is UNKNOWN. Syft inventories tracked source/package manifests. Gitlinks and declared vendored/model evidence are inspected at immutable pins. CMake declarations are conditional requirements, not resolved installations. This is NOT proof of operating-system packages, static-link closure, build-time resolution, or the contents of release binaries."
+      },
+      {
+        "name": "sbom:generation-status",
+        "value": "success"
+      },
+      {
+        "name": "sbom:generation-errors",
+        "value": "[]"
+      }
+    ],
+    "timestamp": "2026-11-02T16:56:12.031434+00:00",
+    "tools": {
+      "components": [
+        {
+          "author": "anchore",
+          "name": "syft",
+          "type": "application",
+          "version": "1.55.0"
+        }
+      ]
+    }
+  },
+  "serialNumber": "urn:uuid:493f4b85-1c9d-40e5-b770-223d0ac8ab27",
+  "specVersion": "1.6",
+  "version": 1
+}
